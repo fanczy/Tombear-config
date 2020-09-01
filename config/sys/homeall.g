@@ -30,5 +30,5 @@ G1 Z5 F100      ; lift Z relative to current position
 ; FINISH
 G90 ; absolute positioning
 M400
-M93 X100 Y100 ; return current to 100%
+M913 X100 Y100 ; return current to 100%
 M400
