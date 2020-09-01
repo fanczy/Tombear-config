@@ -32,7 +32,7 @@ M84 S30                                        ; Set idle timeout
 
 ; Axis Limits
 M208 X0 Y0 Z0 S1                               ; set axis minima
-M208 X250 Y240 Z200 S0                         ; set axis maxima
+M208 X220 Y220 Z200 S0                         ; set axis maxima
 
 ; Endstops
 M574 X2 S3                                     ; configure sensorless endstop for high end on X
