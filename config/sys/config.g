@@ -54,7 +54,7 @@ M950 H0 C"bedheat" T0                          ; create bed heater output on bed
 M307 H0 B1 S1.00                               ; enable bang-bang mode for the bed heater and set PWM limit
 M140 H0                                        ; map heated bed to heater 0
 M143 H0 S120                                   ; set temperature limit for heater 0 to 120C
-M308 S1 P"e1temp" Y"thermistor" T100000 B4138  ; configure sensor 1 as thermistor on pin e1temp
+M308 S1 P"e0temp" Y"thermistor" T100000 B4138  ; configure sensor 1 as thermistor on pin e1temp
 M950 H1 C"e0heat" T1                           ; create nozzle heater output on e0heat and map it to sensor 1
 M307 H1 B0 S1.00                               ; disable bang-bang mode for heater  and set PWM limit
 
