@@ -13,5 +13,5 @@ G1 H1 Y-245 F7000 ; move slowly to Y axis endstop once more (second pass)
 G1 H2 Z-5 F6000 ; lower Z again
 G90 ; absolute positioning
 M400
-M93 X100 Y100 ; return current to 100%
+M913 X100 Y100 ; return current to 100%
 M400
