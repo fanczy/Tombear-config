@@ -45,7 +45,7 @@ M915 X Y R0 F0
 ; Z-Probe
 M950 S0 C"exp.heater3"                         ; create servo pin 0 for BLTouch
 M558 P9 C"^zprobe.in" H5 F120 T6000            ; set Z probe type to bltouch and the dive height + speeds
-G31 P500 X0 Y0 Z2.5                            ; set Z probe trigger value, offset and trigger height
+G31 P500 X-25 Y12 Z2.5                            ; set Z probe trigger value, offset and trigger height
 M557 X15:240 Y15:230 S20                       ; define mesh grid
 
 ; Heaters
