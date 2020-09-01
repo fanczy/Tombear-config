@@ -21,7 +21,7 @@ G1 H1 Y-245 F7000 ; move slowly to Y axis endstop once more (second pass)
 
 ; HOME Z
 G90              ; absolute positioning
-G1 X15 Y15 F6000 ; go to first probe point
+G1 X50 Y50 F6000 ; go to first probe point
 G30              ; home Z by probing the bed
 
 G91             ; relative positioning
